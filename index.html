@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+   <title>Variable</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.0.0-web/css/all.css">
+   
+</head>
+
+
+
+<body id="demo2">
+
+    <!-- <script src="./app.js" type="module"></script>
+
+    
+
+    <button id="demo" onclick='getElementById("demo").innerHTML=Date()'>The time is?</button> -->
+
+   
+    <!-- <button onclick="this.innerHTML=Date()">The time is?</button> -->
+
+
+    <!-- <button onclick="this.innerHTML=Date()">The time is?</button>  -->
+
+    <!-- <button id="dated" onclick="this.innerHTML=Date()">time check</button> -->
+
+
+    <!-- <button onclick="displayDate()">display date</button> -->
+    <!-- <button onclick="myFunction()">Result</button> -->
+    <!-- <p id="result" style="color: white;"></p> -->
+
+
+    <!-- <script>
+        function myFunction(){
+            var x = 999999999999999;
+            var y = 9999999999999999;
+            document.getElementById("result").innerHTML = x + "<br>" + y;
+        }
+    </script> -->
+
+
+
+
+    <!-- <button id="dave" onclick="document.write('Hello David')">Name</button>
+
+    <h1 onclick="changeText(this)">Click on this text!</h1>
+
+
+<script>
+    function changeText(id) {
+        id.innerHTML = "oops!!";
+    }
+    </script> -->
+
+
+    <!-- <script>
+        this.document.getElementById("dave").style.background="black"
+        this.document.getElementById("dave").style.color="white";
+        this.document.getElementById("dave").style.padding="4px 15px"
+        this.document.getElementById("dave").style.border="none"
+
+
+
+    </script> -->
+
+
+
+    <!-- <script>
+        window.onload = downScripts;
+    
+        function downScripts() {
+            var element = document.createElement("script");
+            element.src = "myScript.js";
+            document.body.appendChild(element);
+        }
+    </script> -->
+
+
+
+
+    <!-- <button id="hovered" onclick="this.innerHTML = 'oops'">Click on this text!</button> -->
+
+
+
+    <!-- <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form> -->
+
+
+
+    <!-- <form id="formed"  name="myForm" onsubmit="return validateForm()" method="post" onsubmit="onclickWork()">
+
+        <div class="label1">
+            <label for="">Name:</label>
+            <input type="text" placeholder="Enter name.." name="fName">
+        </div>
+        <div class="label1">
+            <label for="">Email:</label>
+            <input type="email" placeholder="Enter email.." name="fEmail">
+        </div>
+        <div class="label1">
+            <label for="">Tel No.:</label>
+            <input type="tel" placeholder="Enter phone.." name="fTel">
+        </div>
+        <div class="label1">
+            <label for="">Password:</label>
+            <input type="password" placeholder="Enter Password.." name="fPass">
+        </div>
+        <div class="btn">
+            <input type="submit" value="Submit form" >
+        </div>
+    
+    </form> -->
+
+
+    <!-- <button id="text" onclick="myTry()">trying....</button> 
+    -->
+
+
+
+    <!-- <input id="id1" type="number" min="100" max="300">
+    <button onclick="myFunction()" id="id2" >OK</button>
+
+    <p id="demo" style="color: white;"></p> -->
+
+
+
+    <!-- <input id="id1" type="number" max="100">
+    <button onclick="myFunction()" id="id2">OK</button>
+
+    <p id="demo" style="color: white;"></p> -->
+
+
+    <!-- <input id="id1" type="number" min="100">
+    <button onclick="myFunction()" id="id2">OK</button>
+
+    <p id="demo" style="color: white;"></p> -->
+
+
+    <div class="p" id="p" >
+        <p onclick="pEffect()" id="pTrans">A</p>
+        <p onclick="pEffect()" id="pTrans">B</p>
+        <p onclick="pEffect()" id="pTrans">C</p>
+        <p onclick="pEffect()" id="pTrans">D</p>
+        <p onclick="pEffect()" id="pTrans">E</p>
+        <p id="fInsert" onclick="pEffect()"></p>
+        <p onclick="pEffect()" id="pTrans">G</p>
+        <p id="hInsert" onclick="pEffect()" ></p>
+        <p onclick="pEffect()" id="pTrans">I</p>
+        <p onclick="pEffect()" id="pTrans">J</p>
+    </div>
+
+
+    <h1 id="hChange" onclick="change()">Hello me, click to change</h1>
+
+
+    <img src="./image/bob1.png" alt="" onclick="imageChange()" id="imgChange"> <p id="changedType" style="font-size: 16px;"></p>
+
+    <h1 onclick="this.innerHTML='oops!!'">Click on this text!</h1>
+
+    <h1 onclick="changeText(this)">Click on this text!</h1>
+
+    <button onclick="displayDate()" id="date">Try it</button>
+
+
+   
+    <form action="" name="frm">
+        Enter your first name:
+        <input type="text" id="fname" onchange="upperCase()" placeholder="Enter first name" maxlength="6">
+        <br><br>
+       Enter your last name:    
+        <input type="text" id="lname" placeholder="Enter last name">
+
+    </form>
+
+    <div class="mouse" id="mouse" onclick="mouse()">mouse over me</div>
+
+
+
+    <div class="mouse" id="w3-red" onmouseover="this.innerHTML='Thank You'" onmouseout="this.innerHTML='Mouse Over Me'">Thank you</div>
+
+    <div class="mouse" id="w3-red" onmouseleave="this.innerHTML='Mouse Over Me'" onclick="this.innerHTML='Thank you'">Mouse Over Me</div>
+
+
+    <div class="love">
+        <span class="far fas fa-heart" id="heart"></span>
+    </div>
+
+
+
+    <button id="myBtn">try event ...</button>
+
+
+
+    <p id="text" style="font-size: 40px;"></p>
+    
+
+    <button id="event">EVENT</button>
+    <button id="event2" onclick="myEvent">EVENT2</button>
+
+
+
+
+    <p id="demoFive">setInterval</p>
+
+    
+
+
+
+    <div id="myDiv">
+        <p id="myP">hello</p>
+    </div>
+
+
+    
+    <h1 id="intro1">My First Page</h1>
+
+    <p id="demo3">Hello!</p>
+
+
+    <button id="timeIs" onclick="deTimeIs()">Click to display time</button>
+    <p id="timeShow"></p>
+
+    
+    <button onclick="this.style.display='none'">
+        Click to Remove Me!
+    </button>
+
+    <p id="demo4"></p>
+
+    
+
+    <script src="./app.js"></script>
+    <script src="./json.js"></script>
+    
+
+    
+
+
+    
+    
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,22 @@
+{
+    "git.ignoreLimitWarning": true,
+    "cSpell.words": [
+        "bobo",
+        "Bobo",
+        "callmebobonwa",
+        "Callmebobonwa",
+        "convertedtime",
+        "Decrementation",
+        "Nnaji",
+        "Underfined"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:variable}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
+    "liveServer.settings.port": 5501
+}
