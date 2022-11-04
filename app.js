@@ -8614,40 +8614,135 @@
 
 
 
-class Greeting
-{
+// class Greeting
+// {
     
-   static name = this.getName('static name created');
-  constructor(name) {
-    this.name = name;
-    this.age = undefined;
-  }
+//    static name = this.getName('static name created');
+//   constructor(name) {
+//     this.name = name;
+//     this.age = undefined;
+//   }
 
-  #getNameAge() {
-    return this.name + " " + this.age;
-  }
+//   #getNameAge() {
+//     return this.name + " " + this.age;
+//   }
 
-  makePublic() {
-    return this.#getNameAge();
-  }
+//   makePublic() {
+//     return this.#getNameAge();
+//   }
 
-  static getName(name) {
-    return name;
-  }
+//   static getName(name) {
+//     return name;
+//   }
 
-  static getOutsideName(name) {
-    return this.name;
-  }
-}
+//   static getOutsideName(name) {
+//     return this.name;
+//   }
+// }
 
-const greeting = new Greeting( 'David' );
-greeting.age = 18;
-console.log( greeting )
-console.log( greeting.makePublic() )
+// const greeting = new Greeting( 'David' );
+// greeting.age = 18;
+// console.log( greeting )
+// console.log( greeting.makePublic() )
 
-console.log( Greeting.getName( "david" ) );
+// console.log( Greeting.getName( "david" ) );
 
-console.log(Greeting.getOutsideName('static name'));
+// console.log(Greeting.getOutsideName('static name'));
+
+
+
+
+//JSON.PARSE;
+
+// console.log( JSON.parse( '{"name":"John", "age":30, "city":"New York"}' ) );
+
+
+//JSON.PARSE MUST BE WRITTEN TOGETHER.. 
+//JSON.PARSE SHOULD A STRING PROPERTIES..
+//JSON.PARSE NORMALLY USES STRINGS('' OR ``)AT THE BEGININING AND THE CLOSING TAG ... AND ("")=> IS USED AT THE PROPERTIES ADDED TO THE OBJECT OR ARRAY;
+
+
+
+// console.log(JSON.parse('{"name":"John", "age":30, "city":"New York"}'));
+// 
+
+
+// console.log(JSON.parse('["Ford", "BMW", "Audi", "Fiat"]'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//CLASSES: GETTER AND SETTER;
+
+// class Square
+// {
+//     constructor ( _width )
+//     {
+//         this.width = _width;
+//         this.height = _width;
+//     }
+
+//     get area()
+//     {
+//         return this.width = this.height;
+//     }
+// }
+
+
+// const Square1 = new Square( 25 );
+
+// console.log(Square1.area)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
