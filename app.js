@@ -8701,32 +8701,43 @@
 
 
 
-//CLASSES: GETTER AND SETTER;
+// CLASSES: GETTER AND SETTER;
 
-// class Square
-// {
-//     constructor ( _width )
-//     {
-//         this.width = _width;
-//         this.height = _width;
-//     }
+class Square
+{
+    constructor ( _width )
+    {
+        this.width = _width;
+        this.height = _width;
+        this.numOfRequestForArea = 0;
+    }
 
-//     get area()
-//     {
-//         return this.width = this.height;
-//     }
-// }
+    get area()
+    {
+        this.numOfRequestForArea++; //THIS SHOWS  HOW MANY TIMES U CALL THE AREA THE MORE YOU CALL IT ... IT WILL INCREMENT;
+
+        return this.width * this.height;
+    }
+
+    set area( area )
+    {
+        this.width = Math.sqrt(area);//THIS GETS THE SQUARE ROOTS OF THE AREA
+        this.height = this.width; //INSTEAD OF DOING SAME THING U DID , I PASSED THE WIDTH VALUE CUZ IT'S ASSIGNED TO IT;
+    }
+}
 
 
-// const Square1 = new Square( 25 );
+let square1 = new Square();
 
-// console.log(Square1.area)
+//THIS WHERE YOU SET THE VALUE OF YOUR AREA (SETTER);
+square1.area = 25;
 
+console.log(square1.area);
+console.log(square1.area);
+console.log(square1.area);
+console.log( square1.area );
 
-
-
-
-
+console.log(square1.numOfRequestForArea)
 
 
 
